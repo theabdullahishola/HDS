@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    max-width: 100%;
+    max-height: 100%;
+    font-family: sans-serif;
+    color: rgb(37, 30, 30);
+}
+
+body {
+    background-image: url('image_blurred.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    max-height: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 70px;
+    line-height: 60px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 900;
+    width: 100%;
+}
+div p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    max-width: 100%;
+    width: 100%;
+    gap: 30px;
+}
+
+li {
+    width: 100%;
+    text-align: center;
+}
+#fieldset1{
+    background-color: rgb(193, 212, 205);
+    display: flex;
+    gap: 20px;
+    border: 3px solid rgb(72, 223, 206);
+}
+.table{
+    margin-top: 32px;
+    width: 100%;
+    max-width: 40%;
+    max-height: 100%;
+}
+.charts{
+    max-width: 60%;
+    width: 100%;
+    height: 90%;
+}
+#tab{
+    height: 90%;
+    width: 100%;
+}
+#charts{
+    width: 100%;
+    height: 100%;
+}
+#fieldset2{
+    width: 80%;
+    font-size: 20px;
+    margin: auto;
+    padding: 30px;
+    border: 4px solid rgb(193, 212, 205); 
+}
+span:hover{
+    text-decoration: underline;
+    font-size: 25px;
+    padding: 3px;
+    background-color:rgb(110, 10, 167) ;
+}
+@media (max-width:1100px){
+    div p{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0;
+        text-decoration: underline;
+    }
+    header{
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        line-height: 30px;
+        gap: 15px;
+    }
+}
+@media (max-width:610px){
+    #fieldset1{
+        flex-direction: column;
+    }
+    .table{
+        max-width: 100%;
+    }
+}
+@media (max-width:610px){
+    ul{
+        max-width: 60%;
+        font-size: 20px;
+        gap: 15px;
+        width: 100%;
+    }
+}
+@media (max-width:390px){
+    ul{
+        font-size: 15px;
+    }
+    div p{
+        font-size: 20px;
+    }
+}
+@media (max-width:308px){
+    ul{
+        font-size: 12px;
+    }
+    div p{
+        font-size: 15px;
+    }
+}
+@media (max-width:257px){
+    ul{
+        font-size: 8px;
+    }
+        div p {
+            font-size: 10px;
+            font-weight: 1000;
+        }
+}
