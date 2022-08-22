@@ -103,6 +103,7 @@ img{
     }
 }
 
+
 @media (max-width:642px) {
 
     header {
@@ -121,8 +122,8 @@ img{
     ul {
         max-width: 50%;
         width: 90%;
-        font-size: 12px;
-        gap: 20px;
+        font-size: 18px;
+        gap: 22px;
     }
 }
 @media (max-width:700px){
